@@ -27,7 +27,7 @@ export default function TicketItem({
         height={500}
         className="mb-8"
       />
-      <hr className="w-[90%] mx-auto border-t-2 border-dashed border-slate-500" />
+      <hr className="w-[90%] mx-auto border-t-2 border-dashed border-slate-300 dark:border-slate-500" />
       <div className="relative grid place-items-center gap-3">
         <TicketCuts direction="left-[-1rem]" rotate="rotate-90" />
         <TicketCuts direction="right-[-1rem]" rotate="-rotate-90" />
